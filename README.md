@@ -1,3 +1,1 @@
-# Notas y pasos
-npm i
-
+# guia para levantar un proyecto
