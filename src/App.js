@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import CardInfo from './components/CardInfo'
 
 const App = () => {
 
@@ -18,9 +19,7 @@ const App = () => {
             <u>
                 {
                     informacion.map( (item, i) =>(
-                        <li key={i}>
-                            { item.nombre }
-                        </li>
+                        <CardInfo item={item} i={i} />
                     ))
                 }
             </u>
