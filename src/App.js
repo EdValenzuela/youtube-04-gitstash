@@ -15,7 +15,7 @@ const App = () => {
 
     return (
         <div>
-            <h1>Hola mundo</h1>
+            <h1>Listado de react</h1>
             <u>
                 {
                     informacion.map( (item, i) =>(
